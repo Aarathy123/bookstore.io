@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+.booklist_parentDiv {
+  margin: 10px;
+  margin-top: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.booklist_header {
+  position: fixed;
+  background: linear-gradient(180deg, black, black, black, transparent 100%);
+  height: 9%;
+  width: 95%;
+  padding-top: 3px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.booklist_encloseHeader {
+  padding: 3px;
+  display: flex;
+  align-self: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.booklist_headerComponent {
+  margin-top: 3px;
+}
+
+.booklist_headerTitle {
+  margin-left: 5px;
+}
+
+.booklist_filterArrow {
+  width: 12px;
+  height: 12px;
+  position: fixed;
+  background-color: white;
+  transform: rotate(45deg);
+  right: 3.5%;
+  top: 6.5%;
+}
+
+.booklist_filterSearchBy {
+  color: black;
+  font-size: 12px;
+}
+
+.booklist_bookTitle {
+  text-align: left;
+  font-weight: lighter;
+  font-size: 12pt;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.booklist_bookDetails {
+  width: 31.5%;
+  margin-bottom: 30px;
 }
