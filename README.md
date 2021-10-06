@@ -8,3 +8,6 @@ To filter:
 Long Book Names are displayed with ellipsis and a title is given to the  name component
 
 Book without a picture will be showing no picture available image.
+
+
+The dimensions mentioned in the redline section were not used, as on using that, the layout is not matching the mockup.
